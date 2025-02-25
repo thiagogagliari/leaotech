@@ -10,27 +10,38 @@ body{
     font-family: "Poppins", serif;
     text-align: center;
 }
+span{
+    color: blue;
+}
+
 
 header{
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
+    align-items: center;
     gap: 100px;
 }
 
-.imageHeader img{
+.logo{
     position: relative;
+    margin-top: 10px;
+    height: 36px;
+    width: 90px;
 }
 
 .navbar ul, li, a{
-    gap: 20px;
+    font-size: 16px;
+    height: 19px;
+    font-weight: 500;
+    gap: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5px;
 }
 
 .navbar ul li img{
     gap: 40px;
+    align-items: center;
 }
 
 a{
@@ -43,16 +54,19 @@ a{
     font-size: 54px;
     font-weight: 600;
     height: 162px;
-    margin-top: 100px;
+    margin-top: 178px;
     line-height:81px;
 }
 
-.investment p{
+.text-investment{
+    height: 94px;
+    margin: 25px 300px;
+    text-align: center;
     font-size: 21px;
 }
 
 .btn-investment{
-    border-radius: 52%;
+    border-radius: 25px;
     width: 196px;
     height: 51px;
     background-color: blue;
@@ -65,7 +79,53 @@ a{
     top: 455px;
 }
 
-span{
-    color: blue;
+.btn-investment p{
+    height: 19px;
+    font-size: 16px;
+    text-align: center;
 }
 
+.btn-investment img{
+    vertical-align: center;
+    display: inline;
+}
+
+.login{
+    margin-top: 8px;
+    width: 228px;
+    height: 51px;
+}
+
+.btn-login{
+    font-size: 16px;
+    border-radius: 25px;
+    width: 96px;
+    height: 51px;
+    color: #2558EB;
+    font-weight: 600;
+    background-color: #fff;
+    border: 1px solid #2558EB;
+    margin: 0 1.2em 0 0;
+}
+
+.btn-signup{
+    font-size: 16px;
+    text-align: center;
+    border-radius: 25px;
+    width: 96px;
+    height: 51px;
+    background-color: #2558EB;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+}
+
+.btn-login a{
+    width: auto;
+    height: auto;
+}
+
+.btn-signup a{
+    width: auto;
+    height: auto;
+}
