@@ -16,6 +16,7 @@ span{
 
 
 header{
+    color: #000;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -30,6 +31,7 @@ header{
 }
 
 .navbar ul, li, a{
+    color: #000;
     font-size: 16px;
     height: 19px;
     font-weight: 500;
@@ -37,6 +39,10 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.navbar{
+    margin-top: 50px;
 }
 
 .navbar ul li img{
@@ -69,13 +75,14 @@ a{
 }
 
 .paragraph-services{
+    text-align: center;
     margin-top: -50px;
     margin-bottom: 100px;
 }
 
 .text-investment{
     height: 94px;
-    margin: 30px 500px 100px;
+    margin: 43px 300px 66px;
     text-align: center;
     font-size: 21px;
 }
@@ -84,6 +91,7 @@ a{
     margin-top: 5px;
     font-weight: 700;
     border-radius: 25px;
+    border: 1px solid #fff;
     width: 170px;
     height: 51px;
     background-color: #2558EB;
@@ -282,7 +290,8 @@ summary::-webkit-details-marker {
 }
 
 .explore-button {
-    width: 600px;
+    margin: 15px;
+    width: 700px;
     height: 51px;
     background-color: #007bff;
     color: #fff;
@@ -308,13 +317,107 @@ summary::-webkit-details-marker {
     height: 300px;
     background-color: #2558EB;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 36;
-    padding-top: 40px;
+    justify-content: space-around;
+    align-items: start;
+    align-self: auto;
+    padding-top: 50px;
     padding-bottom: 40px;
 }
-
 .footer-container h1{
     color: #fff;
+}
+
+.footer-container ul li a{
+    margin-top: 0;
+    color: #fff;
+    gap: 40px;
+    line-height: 100px;
+}
+
+.logo-footer{
+    margin-bottom: 100px;
+    height: 36px;
+    width: 90px;
+}
+
+.social-list-footer ul, li{
+    margin-bottom: 40px;
+    line-height: 22px;
+}
+
+.button-footer{
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 12px;
+}
+
+.btn-email{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    border-radius: 9px;
+    border: 1px solid #fff;
+    width: 305px;
+    display: grid;
+    height: 55px;
+    background-color: #2558EB;
+    color: #fff;
+}
+
+.btn-subscribe{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    border-radius: 9px;
+    border: 1px solid #fff;
+    width: 305px;
+    display: grid;
+    height: 55px;
+    background-color: #fff;
+    color: #2558EB;
+}
+
+.btn-img{
+    position: absolute;
+    margin-left: 38px;
+    width: 20px;
+    height: 20px;
+}
+
+.line-footer {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #2558eb;
+  padding: 10px 20px;
+  color: white; 
+}
+
+.social-text-footer {
+    margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px; 
+}
+
+.nav-footer {
+  display: flex;
+}
+
+.social-footer {
+  display: flex;
+  list-style: none;
+  gap: 30px; 
+  padding: 0;
+  margin: 70px;
+}
+
+.social-footer img {
+  height: auto;
+  gap: 20px;
+}
+
+hr{
+    border-top-width: 0.1px solid #ffffff;
 }
